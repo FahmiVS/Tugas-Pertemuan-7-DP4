@@ -100,8 +100,6 @@ end;
     // Nampilin data mahasiswa
     for i := 0 to n - 1 do
     begin
-        clrscr;
-
         with mhs[i] do
         begin
             writeln('Nama : ', nama);
